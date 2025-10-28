@@ -19,6 +19,11 @@
 - Make sure you have Python installed on your system. You can download Python from the official website: [Python Downloads](https://www.python.org/downloads/).
 - Ensure you have a MongoDB instance running. You can download MongoDB from the official website: [MongoDB Downloads](https://www.mongodb.com/try/download/community). We recommend using MongoDB Compass for easier management.
 - Ensure you have a MySQL instance running. You can download MySQL from the official website: [MySQL Downloads](https://dev.mysql.com/downloads/mysql/).
+- Ensure you have git installed on your system. You can download git from the official website: [Git Downloads](https://git-scm.com/downloads).
+
+```bash
+git clone https://github.com/JCGCosta/OntologyToAPISamples.git && cd OntologyToAPISamples
+```
 
 ### Step 2: Creating a Virtual Environment (If wanted, else skip to Step 3)
 
