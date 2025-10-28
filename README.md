@@ -92,4 +92,4 @@ python runAPI.py
 
 - The browser swagger documentation will look like this:
 
-<img src="https://github.com/JCGCosta/OntologyToAPISamples/blob/main/UseCases/APIDocs.jpg?raw=true" alt="APIDocs" title="Abstract Ontology Classes.">
+<img src="https://github.com/JCGCosta/OntologyToAPISamples/blob/main/UseCases/APIDocs.png?raw=true" alt="APIDocs" title="Abstract Ontology Classes.">
