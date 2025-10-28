@@ -22,7 +22,8 @@
 - Ensure you have git installed on your system. You can download git from the official website: [Git Downloads](https://git-scm.com/downloads).
 
 ```bash
-git clone https://github.com/JCGCosta/OntologyToAPISamples.git && cd OntologyToAPISamples
+git clone https://github.com/JCGCosta/OntologyToAPISamples.git 
+cd OntologyToAPISamples
 ```
 
 ### Step 2: Creating a Virtual Environment (If wanted, else skip to Step 3)
@@ -70,11 +71,12 @@ wmuc:DatabaseCommunication_R rdf:type owl:NamedIndividual ,
 ```bash
 # First, rename the .env_example file to .env and set the database connection details.
 cp .env_example .env
-echo "MYSQL_IP_ADDRESS=<your_mysql_ip_address>
-MYSQL_PORT=<your_mysql_port>
-MYSQL_USERNAME=<your_mysql_username>
-MYSQL_PASSWORD=<your_mysql_password>
-" > .env
+python -c "open('.env','w',encoding='utf-8').write(
+'MYSQL_IP_ADDRESS=<your_mysql_ip_address>\n'
+'MYSQL_PORT=<your_mysql_port>\n'
+'MYSQL_USERNAME=<your_mysql_username>\n'
+'MYSQL_PASSWORD=<your_mysql_password>\n'
+)"
 
 # Run the respective database setup script for the PB_UseCase.
 python UseCases/PB_UseCase/setupSQL/create_pb_use_case.py
