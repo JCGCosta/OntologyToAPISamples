@@ -6,11 +6,11 @@
 
 - **WeatherMonitoring**: A simple weather information retrieval API.
 
-<img src="https://github.com/JCGCosta/OntologyToAPISamples/blob/main/UseCases/PB_UseCase/RealizationOntologies/PB_UseCaseOntologyDiagram.jpg?raw=true" alt="WeatherMonitoring" title="Abstract Ontology Classes.">
+<img src="https://github.com/JCGCosta/OntologyToAPISamples/blob/main/UseCases/WeatherMonitoring_UseCase/RealizationOntologies/WeatherMonitoringOntologyDiagram.jpg?raw=true" alt="WeatherMonitoring" title="Abstract Ontology Classes.">
 
 - **PB_UseCase**: A Local Electricity Market use case.
 
-<img src="https://github.com/JCGCosta/OntologyToAPISamples/blob/main/UseCases/WeatherMonitoring_UseCase/RealizationOntologies/WeatherMonitoringOntologyDiagram.jpg?raw=true" alt="PB_UseCase" title="Abstract Ontology Classes.">
+<img src="https://github.com/JCGCosta/OntologyToAPISamples/blob/main/UseCases/PB_UseCase/RealizationOntologies/PB_UseCaseOntologyDiagram.jpg?raw=true" alt="PB_UseCase" title="Abstract Ontology Classes.">
 
 ## Installation and Running:
 
