@@ -1,0 +1,2 @@
+ontologytoapi==0.0.11
+dotenv==0.9.9
